@@ -1,20 +1,18 @@
-@use './variables';
-
-//GLOBALT TYPOGRAPHY VARIABLES
+//---------------GLOBALT TYPOGRAPHY VARIABLES
 
 //Font Families
 $font-family-primary: "Montserrat", sans-serif;
 $font-family-secondary: "Fraunces", serif;
+
+//Font Weights
+$font-weight-bold: 700;
+$font-weight-medium: 500;
 
 //Font Sizes
 $font-size-xl: 2rem;       //32px
 $font-size-lg: 0.875rem;   //14px
 $font-size-md: 0.8125rem;  //13px
 $font-size-sm: 0.75rem;    //12px
-
-//Font Weights
-$font-weight-lg: 700;
-$font-weight-sm: 500;
 
 //Line Height
 $line-height-default: 1;
@@ -23,5 +21,20 @@ $line-height-md: 1.2;
 $line-height-lg: 1.6;
 
 //Letter Spacing
-$letter-spacing-default: 0px;
-$letter-spacing-default: 5px;
+$letter-spacing-none: 0px;
+$letter-spacing-wide: 5px;
+
+//---------------FONT MIXINS
+@mixin text-preset-1(
+    $font:     $font-family-secondary,
+    $weight:   $font-weight-bold,
+    $size:     $font-size-xl,
+    $height:   $line-height-default,
+    $spacing:  $letter-spacing-none
+)   {
+    font-family: $font;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    letter-spacing: $spacing;
+}
