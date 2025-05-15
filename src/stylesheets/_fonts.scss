@@ -22,7 +22,7 @@ $line-height-lg: 1.6;
 
 //Letter Spacing
 $letter-spacing-none: 0px;
-$letter-spacing-wide: 5px;
+$letter-spacing-wide: 0.3125rem; //5px
 
 //---------------FONT MIXINS
 @mixin text-preset-1(
