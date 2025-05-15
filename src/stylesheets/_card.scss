@@ -49,6 +49,10 @@
     &--current {
         @include text-preset-1;
         color: $highlight-color;
+
+        @media (min-width: $breakpoint-tablet) {
+            @include text-preset-1($size: clamp(1rem, 4.16vw, $font-size-xl));
+        }
     }
 
     &--old {
