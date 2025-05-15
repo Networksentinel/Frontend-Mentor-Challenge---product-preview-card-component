@@ -14,3 +14,8 @@
     flex-direction: column;
     gap: $space-300;
 }
+
+.card__info-heading {
+    @include text-preset-4;
+    text-transform: uppercase;
+}
