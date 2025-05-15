@@ -32,6 +32,10 @@
 }
 
 //PRICE
-
+.card__price {
+    display: flex;
+    align-items: center;
+    gap: $space-200;
+}
 
 //BUTTON
