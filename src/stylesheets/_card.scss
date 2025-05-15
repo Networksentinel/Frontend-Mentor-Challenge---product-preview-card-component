@@ -37,6 +37,10 @@
     align-items: center;
     gap: $space-200;
 
+    &--current {
+        @include text-preset-1;
+        color: $highlight-color;
+    }
 }
 
 //BUTTON
