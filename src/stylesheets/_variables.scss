@@ -1,10 +1,10 @@
 //COLORS
-$primary-color: #6C7289; //grey
-$secondary-color: #1C232B; //black
-$highlight-color: #3D8168; //green-500
-$hover-color: #1A4032; //green-700
+$primary-color: #6C7289;    //grey
+$secondary-color: #1C232B;  //black
+$highlight-color: #3D8168;  //green-500
+$hover-color: #1A4032;      //green-700
 $primary-bg-color: #F2EAE2; //cream
-$secondary-bg-color: #fff; //white
+$secondary-bg-color: #fff;  //white
 
 //SPACINGS
 $space-500: 2.5rem; //40px
@@ -13,3 +13,6 @@ $space-300: 1.5rem; //24px
 $space-200: 1rem;   //16px
 $space-100: 0.5rem; //8px
 $space-50: 0.25rem; //4px
+
+//BREAKPOINTS
+$breakpoint-tablet: 37.5rem; //600px

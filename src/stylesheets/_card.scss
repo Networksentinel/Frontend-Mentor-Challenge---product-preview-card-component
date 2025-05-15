@@ -9,7 +9,7 @@
     flex-direction: column;
     gap: $space-300;
 
-    @media (min-width:500px) {
+    @media (min-width: $breakpoint-tablet) {
         width: clamp(12rem, 39.0625vw, 18.75rem);
         height: 28.5rem;
     } 
