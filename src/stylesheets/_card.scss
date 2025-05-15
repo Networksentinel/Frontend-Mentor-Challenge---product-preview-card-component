@@ -49,6 +49,10 @@
 }
 
 //BUTTON
+.button-wrap {
+    display: flex;
+    justify-content: center;
+}
 
 .card__button {
     @include text-preset-2;
