@@ -22,7 +22,7 @@ main {
 
     border-radius: $space-100;
     @media (min-width: 500px) {
-        width: 78.125vw;
+        width: clamp(21.875rem, 78.125vw, 37.5rem);
         height: 28.5rem;
 
         flex-direction: row;
