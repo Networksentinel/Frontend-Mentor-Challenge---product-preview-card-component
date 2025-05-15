@@ -19,3 +19,8 @@
     @include text-preset-4;
     text-transform: uppercase;
 }
+
+.card__info-title {
+    @include text-preset-1;
+    color: $secondary-color;
+}
