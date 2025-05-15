@@ -21,6 +21,7 @@ main {
     align-items: center;
 
     border-radius: $space-100;
+    
     @media (min-width: 500px) {
         width: clamp(21.875rem, 78.125vw, 37.5rem);
         height: 28.5rem;

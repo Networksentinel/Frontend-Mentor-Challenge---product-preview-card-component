@@ -7,6 +7,7 @@
     height: 91.2vw;
 
     object-fit: cover;
+    
     @media (min-width:500px) {
         width: clamp(12rem, 39.0625vw, 18.75rem);
         height: 28.5rem;
