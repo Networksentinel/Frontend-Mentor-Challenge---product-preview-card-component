@@ -79,6 +79,12 @@
 
     transition: all 0.3s ease;
 
+    @media (min-width: $breakpoint-tablet) {
+            width: clamp(11.5rem, 30.72916vw, 14.75rem);
+            height: clamp(2.4375rem, 6.510416vw, 3.125rem);
+            min-height: 2.4375rem;
+        }
+
     &:hover,
     &:focus {
         cursor: pointer;
