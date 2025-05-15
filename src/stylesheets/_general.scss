@@ -21,4 +21,10 @@ main {
     align-items: center;
 
     border-radius: $space-100;
+    @media (min-width: 500px) {
+        width: 78.125vw;
+        height: 28.5rem;
+
+        flex-direction: row;
+    }
 }
