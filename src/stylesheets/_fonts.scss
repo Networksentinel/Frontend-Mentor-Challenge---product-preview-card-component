@@ -1,4 +1,4 @@
-//---------------GLOBALT TYPOGRAPHY VARIABLES
+//---------------GLOBAL TYPOGRAPHY VARIABLES
 
 //Font Families
 $font-family-primary: "Montserrat", sans-serif;
@@ -30,6 +30,62 @@ $letter-spacing-wide: 5px;
     $weight:   $font-weight-bold,
     $size:     $font-size-xl,
     $height:   $line-height-default,
+    $spacing:  $letter-spacing-none
+)   {
+    font-family: $font;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    letter-spacing: $spacing;
+}
+
+@mixin text-preset-2(
+    $font:     $font-family-primary,
+    $weight:   $font-weight-bold,
+    $size:     $font-size-lg,
+    $height:   $line-height-sm,
+    $spacing:  $letter-spacing-none
+)   {
+    font-family: $font;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    letter-spacing: $spacing;
+}
+
+@mixin text-preset-3(
+    $font:     $font-family-primary,
+    $weight:   $font-weight-medium,
+    $size:     $font-size-lg,
+    $height:   $line-height-lg,
+    $spacing:  $letter-spacing-none
+)   {
+    font-family: $font;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    letter-spacing: $spacing;
+}
+
+@mixin text-preset-4(
+    $font:     $font-family-primary,
+    $weight:   $font-weight-medium,
+    $size:     $font-size-sm,
+    $height:   $line-height-md,
+    $spacing:  $letter-spacing-wide
+)   {
+    font-family: $font;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    letter-spacing: $spacing;
+}
+
+@mixin text-preset-5(
+    $font:     $font-family-primary,
+    $weight:   $font-weight-medium,
+    $size:     $font-size-md,
+    $height:   $line-height-md,
     $spacing:  $letter-spacing-none
 )   {
     font-family: $font;
