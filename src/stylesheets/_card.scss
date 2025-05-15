@@ -41,6 +41,11 @@
         @include text-preset-1;
         color: $highlight-color;
     }
+
+    &--old {
+        @include text-preset-5;
+        text-decoration: line-through;
+    }
 }
 
 //BUTTON
