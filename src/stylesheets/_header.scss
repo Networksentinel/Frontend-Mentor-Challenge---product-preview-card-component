@@ -1,1 +1,12 @@
 @use './design' as *;
+
+.main__header {
+    width: 350px;
+    height: 342px;
+}
+
+.main__header-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
