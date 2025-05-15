@@ -1,1 +1,23 @@
 @use './design' as *;
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & p {
+        display: flex;
+        gap: $space-50; 
+    }
+
+    & a {
+        display: block;
+        color: $secondary-color;
+        transition: all 0.3s ease;
+        &:hover,
+        &:focus {
+            color: $highlight-color;
+            transform: translateY(-3px);
+        }
+    }
+}
