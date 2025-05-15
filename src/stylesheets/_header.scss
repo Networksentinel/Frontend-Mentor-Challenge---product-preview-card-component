@@ -1,6 +1,7 @@
 @use './design' as *;
 
 .main__header-img {
+    display: block;
     width: 100%;
     height: 342px;
     object-fit: cover;
