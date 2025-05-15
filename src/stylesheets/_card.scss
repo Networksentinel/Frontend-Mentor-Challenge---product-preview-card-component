@@ -1,2 +1,5 @@
 @use './design' as *;
 
+.card {
+    padding: $space-400;
+}
