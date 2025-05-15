@@ -49,3 +49,9 @@
 }
 
 //BUTTON
+
+.card__button {
+    @include text-preset-2;
+    color: $secondary-bg-color;
+    background-color: $highlight-color;
+}
