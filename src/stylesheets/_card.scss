@@ -1,5 +1,6 @@
 @use './design' as *;
 
+//GENERAL
 .card {
     padding: $space-400;
     background-color: $secondary-bg-color;
@@ -9,6 +10,7 @@
     gap: $space-300;
 }
 
+//INFO
 .card__info {
     display: flex;
     flex-direction: column;
@@ -28,3 +30,8 @@
 .card__info-description {
     @include text-preset-3;
 }
+
+//PRICE
+
+
+//BUTTON
