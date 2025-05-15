@@ -24,3 +24,7 @@
     @include text-preset-1;
     color: $secondary-color;
 }
+
+.card__info-description {
+    @include text-preset-3;
+}
