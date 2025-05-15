@@ -1,2 +1,7 @@
-@use './design';
+@use './design' as *;
 
+body {
+    font-size: 1rem;
+    background-color: $primary-bg-color;
+
+}
