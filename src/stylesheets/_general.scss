@@ -11,23 +11,5 @@ body {
 }
 
 main {
-    width: 93.33vw;
     min-height: 100vh;
-    overflow: hidden;
-    
-    margin: 80px 0 172px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    border-radius: $space-100;
-
-    @media (min-width: $breakpoint-tablet) {
-        width: clamp(21.875rem, 78.125vw, 37.5rem);
-        
-
-        flex-direction: row;
-        
-}
 }
