@@ -12,9 +12,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -49,6 +46,7 @@ Users should be able to:
 This wasn’t just a simple `clamp()` fix — the design needed the component to start small on phones, get bigger by tablet size, then shrink a bit, and finally grow again on bigger screens. 
 
 **It was kind of tricky, but I made it work by mixing `@media` queries with `clamp()`. The layout feels smooth and responsive, and it really matches the Figma design closely.**
+
 Here is an example:
 
 ```scss
@@ -75,4 +73,5 @@ Here is an example:
 
 ### Continued development
 
-In future projects I need to commit more often in Git, and be more intentional with it. Like, really think about what each change is doing to the layout or visuals, and pick a commit message/label that fits.
+In future projects I need to commit more often in Git, and be more intentional with it. Like, really think about what each change is doing to the layout or visuals, and pick a commit message
+label that fits.
