@@ -6,7 +6,7 @@
     align-items: center;
     margin: $space-100 0;
 
-    @media (min-width: 31.25rem) {
+    @media (min-width: $breakpoint-sm) {
         flex-direction: row;
         gap: $space-100;
     }
